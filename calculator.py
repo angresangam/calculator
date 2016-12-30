@@ -1,7 +1,17 @@
 #My first program in Python. Im still learning this programing language.
 
-running = True 
+running = True
 
+
+def addition(a, b):
+    result = a + b
+    return result
+
+def negation(a, b):
+    result = a - b
+    return result
+
+'''
 while running:
     print("1 = Addition")
     print("2 = Subtraction")
@@ -13,7 +23,7 @@ while running:
         print("Addition")
         first = int(input("Enter first number :"))
         secund = int(input("Enter secund number :"))
-        result = first + secund
+        result = addition(first, secund)
         print(first ,'+' ,secund ,'=' , result)
     elif cmd == 2:
         print("Subtraction")
@@ -36,3 +46,4 @@ while running:
     elif cmd == 5:
         print("Quit!")
         running = False
+'''
